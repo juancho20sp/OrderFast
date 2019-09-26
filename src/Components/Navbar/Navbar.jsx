@@ -16,7 +16,7 @@ class Header extends Component{
                 <nav className={classes.menu}>
                     <li><Link to = "/">Inicio</Link></li>
                     <li><Link to = "/restaurantes">Restaurantes</Link></li>
-                    <li><Link to = "/nosotros">Nosotros</Link></li>
+                    <li><Link to = "/nosotros">Nosotros</Link></li>                    
                 </nav>
 
                 <Route path="/" exact render={() =>(
