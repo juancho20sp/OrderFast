@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    margin: 0 auto;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav > li > a{
+    text-decoration: none;
+}
