@@ -13,9 +13,15 @@ class Header extends Component{
     render(){
         return(            
             <BrowserRouter>
-                <nav className={classes.menu}>
+                <nav className={classes.menu} role>
                     <li><Link to = "/">Inicio</Link></li>
-                    <li><Link to = "/restaurantes">Restaurantes</Link></li>
+                    <li><Link to = "/restaurantes">Restaurantes</Link>
+                        {/* <ul className={classes.dropdown}>
+                            <li><Link to = "">Sub-1</Link></li>
+                            <li><Link to = "">Sub-2</Link></li>
+                            <li><Link to = "">Sub-3</Link></li>
+                        </ul> */}
+                    </li>
                     <li><Link to = "/nosotros">Nosotros</Link></li>                    
                 </nav>
 

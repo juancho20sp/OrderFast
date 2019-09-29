@@ -5,17 +5,41 @@
     margin: 0 auto;
     list-style: none;
     flex-wrap: wrap;
+    text-align: center;
 }
+
+/* .dropdown{
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+nav li:hover > ul, nav li ul:hover{
+    visibility: visible;
+    background-color: red;
+    width: 160px;
+    display: block;
+}
+
+ul li ul li{
+    clear: both;
+    width: 100%;
+}
+
+nav > li > a, nav > li > ul > li > a{
+    text-decoration: none;
+} */
 
 nav > li > a{
     text-decoration: none;
 }
-
 nav > li{
     flex: 1;
     text-align: center;
 }
 
+/* Media and size design */
 @media all and (max-width: 600px){
     .menu{
         background-color: red;

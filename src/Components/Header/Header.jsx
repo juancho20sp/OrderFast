@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 import Navbar from './../Navbar/Navbar';
 import classes from './Header.css';
 
