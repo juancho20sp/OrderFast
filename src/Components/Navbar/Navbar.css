@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+nav{
+    font-size: 1.3rem;
+}
+
 /* .dropdown{
     visibility: hidden;
     position: absolute;

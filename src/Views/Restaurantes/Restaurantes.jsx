@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Link, Route} from 'react-router-dom';
 import axios from 'axios';
 import Restaurante from './../../Components/Restaurante/Restaurante';
 import classes from './Restaurantes.css';

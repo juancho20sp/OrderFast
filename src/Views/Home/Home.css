@@ -1,0 +1,21 @@
+.btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 85px 85px 85px 85px;
+    -moz-border-radius: 85px 85px 85px 85px;
+    -webkit-border-radius: 85px 85px 85px 85px;
+
+    width: 15%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
